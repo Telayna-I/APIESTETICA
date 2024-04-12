@@ -1,0 +1,185 @@
+	const depilationShift = {
+		zone: {
+			cuerpoCompletoM: {
+				toDo: cuerpoCompletoM ? cuerpoCompletoM : false,
+				force: "",
+			},
+			MDIAxilasCavado: {
+				toDo: MDIAxilasCavado ? MDIAxilasCavado : false,
+				force: "",
+			},
+			cavadoAxilas: {
+				toDo: cavadoAxilas ? cavadoAxilas : false,
+				force: "",
+			},
+			cavadoNormal: {
+				toDo: cavadoNormal ? cavadoNormal : false,
+				force: "",
+			},
+			cavadoCompleto: {
+				toDo: cavadoCompleto ? cavadoCompleto : false,
+				force: "",
+			},
+			axilas: {
+				toDo: axilas ? axilas : false,
+				force: "",
+			},
+			piernasEnteras: {
+				toDo: piernasEnteras ? piernasEnteras : false,
+				force: "",
+			},
+			mPiernaInferior: {
+				toDo: mPiernaInferior ? mPiernaInferior : false,
+				force: "",
+			},
+			mPiernaSuperior: {
+				toDo: mPiernaSuperior ? mPiernaSuperior : false,
+				force: "",
+			},
+			rostro: {
+				toDo: rostro ? rostro : false,
+				force: "",
+			},
+			menton: {
+				toDo: menton ? menton : false,
+				force: "",
+			},
+			tiraDelAlba: {
+				toDo: tiraDelAlba ? tiraDelAlba : false,
+				force: "",
+			},
+			gluteos: {
+				toDo: gluteos ? gluteos : false,
+				force: "",
+			},
+			espalda: {
+				toDo: espalda ? espalda : false,
+				force: "",
+			},
+			brazos: {
+				toDo: brazos ? brazos : false,
+				force: "",
+			},
+			patillas: {
+				toDo: patillas ? patillas : false,
+				force: "",
+			},
+			antebrazo: {
+				toDo: antebrazo ? antebrazo : false,
+				force: "",
+			},
+			abdomen: {
+				toDo: abdomen ? abdomen : false,
+				force: "",
+			},
+			pies: {
+				toDo: pies ? pies : false,
+				force: "",
+			},
+			dedos: {
+				toDo: dedos ? dedos : false,
+				force: "",
+			},
+			pecho: {
+				toDo: pecho ? pecho : false,
+				force: "",
+			},
+			zonaLumbar: {
+				toDo: zonaLumbar ? zonaLumbar : false,
+				force: "",
+			},
+			manos: {
+				toDo: manos ? manos : false,
+				force: "",
+			},
+			nuca: {
+				toDo: nuca ? nuca : false,
+				force: "",
+			},
+			empeine: {
+				toDo: empeine ? empeine : false,
+				force: "",
+			},
+			pechoAbdomen: {
+				toDo: pechoAbdomen ? pechoAbdomen : false,
+				force: "",
+			},
+			abdomenEspalda: {
+				toDo: abdomenEspalda ? abdomenEspalda : false,
+				force: "",
+			},
+			hombros: {
+				toDo: hombros ? hombros : false,
+				force: "",
+			},
+			pelvis: {
+				toDo: pelvis ? pelvis : false,
+				force: "",
+			},
+			barba: {
+				toDo: barba ? barba : false,
+				force: "",
+			},
+			entrecejo: {
+				toDo: entrecejo ? entrecejo : false,
+				force: "",
+			},
+			bozo: {
+				toDo: bozo ? bozo : false,
+				force: "",
+			},
+			tiraDeCola: {
+				toDo: tiraDeCola ? tiraDeCola : false,
+				force: "",
+			},
+		},
+		price,
+		date,
+		hour,
+		patient,
+		notes,
+	};
+
+
+
+
+	const {
+		cuerpoCompletoM,
+		MDIAxilasCavado,
+		cavadoAxilas,
+		cavadoNormal,
+		cavadoCompleto,
+		axilas,
+		piernasEnteras,
+		mPiernaInferior,
+		mPiernaSuperior,
+		rostro,
+		bozo,
+		menton,
+		tiraDelAlba,
+		tiraDeCola,
+		gluteos,
+		entrecejo,
+		espalda,
+		brazos,
+		patillas,
+		antebrazo,
+		abdomen,
+		pies,
+		dedos,
+		pecho,
+		zonaLumbar,
+		manos,
+		nuca,
+		empeine,
+		pechoAbdomen,
+		abdomenEspalda,
+		hombros,
+		pelvis,
+		barba,
+		price,
+		date,
+		hour,
+		patient,
+		notes,
+	} = req.body;
